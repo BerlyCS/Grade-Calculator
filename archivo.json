@@ -1,0 +1,14 @@
+[
+  {
+    "nombre_curso": "Estructuras discretas",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.20, 0.20]
+  },
+  {
+    "nombre_curso": "Calculo en una variable",
+    "valores": [0.09, 0.24, 0.09, 0.24, 0.12, 0.32]
+  },
+  {
+    "nombre_curso": "Historia",
+    "valores": [4.1, 3.9, 4.0, 4.3, 3.8, 4.2]
+  }
+]
