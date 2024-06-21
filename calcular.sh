@@ -10,11 +10,18 @@ done
 echo -n "Elegir curso: "
 read INDICE
 INDICE=($INDICE-1)
+
+if [[ $INDICE -ge $num_cursos ]]; then
+    echo "No existe ese curso."
+    exit
+fi
+
 CURSO=$(jq -r ".[$INDICE].nombre_curso" archivo.json)
-
 valores_pesos=($(jq -r ".[$INDICE].valores | @sh" archivo.json))
-
 NOTA_ACTUAL=0
+
+echo "Los valores de los pesos del curso $CURSO son:"
+echo "${valores_pesos[@]}"
 
 for ((i=0; i<6; i++)); do
     read -p "Ingrese nota $(($i+1)):" NOTA
@@ -30,7 +37,5 @@ for ((i=0; i<6; i++)); do
     NOTA_ACTUAL=$(echo "$NOTA_ACTUAL + $NOTA*${valores_pesos[i]}" | bc)
 done
 
-echo "Los valores de los pesos del curso $CURSO son:"
-echo "${valores_pesos[@]}"
 echo $NOTA_ACTUAL
 
