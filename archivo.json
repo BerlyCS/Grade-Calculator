@@ -8,7 +8,15 @@
     "valores": [0.09, 0.24, 0.09, 0.24, 0.12, 0.32]
   },
   {
-    "nombre_curso": "Historia",
-    "valores": [4.1, 3.9, 4.0, 4.3, 3.8, 4.2]
+    "nombre_curso": "Ciencia de la Computacion II",
+    "valores": [0.12, 0.12, 0.16, 0.18, 0.18, 0.24]
+  },
+  {
+    "nombre_curso": "Calculo en varias variables",
+    "valores": [0.09, 0.24, 0.09, 0.24, 0.12, 0.32]
+  },
+  {
+    "nombre_curso": "Ciudadania e interculturalidad",
+    "valores": [0.20, 0.10, 0.20, 0.15, 0.20, 0.15]
   }
 ]
