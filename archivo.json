@@ -1,19 +1,15 @@
 [
   {
-    "nombre_curso": "Estructuras discretas",
+    "nombre_curso": "Estructuras discretas I y II",
     "valores": [0.15, 0.15, 0.15, 0.15, 0.20, 0.20]
   },
   {
-    "nombre_curso": "Calculo en una variable",
-    "valores": [0.09, 0.24, 0.09, 0.24, 0.12, 0.32]
-  },
-  {
     "nombre_curso": "Ciencia de la Computacion II",
-    "valores": [0.12, 0.12, 0.16, 0.18, 0.18, 0.24]
+    "valores": [0.18, 0.12, 0.18, 0.12, 0.24, 0.16]
   },
   {
     "nombre_curso": "Calculo en varias variables",
-    "valores": [0.09, 0.24, 0.09, 0.24, 0.12, 0.32]
+    "valores": [0.06, 0.24, 0.06, 0.24, 0.08, 0.32]
   },
   {
     "nombre_curso": "Ciudadania e interculturalidad",

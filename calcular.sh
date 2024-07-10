@@ -23,19 +23,11 @@ NOTA_ACTUAL=0
 echo "Los valores de los pesos del curso $CURSO son:"
 echo "${valores_pesos[@]}"
 
+NOTAS=()
+
 for ((i=0; i<6; i++)); do
     read -p "Ingrese nota $(($i+1)):" NOTA
-
-    if [[ -z $NOTA ]]; then
-        NOTA=(0)
-        echo "Omitiendo (valor 0)"
-    # else ! [[ $NOTA =~ ^[0-9]+$ ]];
-    #     NOTA=(0)
-    #     echo "El valor ingresado no es un número."
-    fi
-
-    NOTA_ACTUAL=$(echo "$NOTA_ACTUAL + $NOTA*${valores_pesos[i]}" | bc)
+    NOTAS="$NOTAS ".$NOTA
 done
 
-echo $NOTA_ACTUAL
-
+./promedio $NOTA[0] $NOTA[1] $NOTA[2]
