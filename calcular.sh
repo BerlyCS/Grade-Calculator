@@ -27,7 +27,9 @@ NOTAS=()
 
 for ((i=0; i<6; i++)); do
     read -p "Ingrese nota $(($i+1)):" NOTA
-    NOTAS="$NOTAS ".$NOTA
+    NOTAS="$NOTAS "$NOTA
 done
 
-./promedio $NOTA[0] $NOTA[1] $NOTA[2]
+# echo ${NOTAS[@]} ${valores_pesos[@]}
+
+./promedio ${NOTAS[@]} ${valores_pesos[@]}
