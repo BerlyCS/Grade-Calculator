@@ -1,7 +1,11 @@
 [
   {
-    "nombre_curso": "Estructuras discretas I y II",
-    "valores": [0.15, 0.15, 0.15, 0.15, 0.10, 0.30]
+    "nombre_curso": "Estructuras discretas I",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.20, 0.20]
+  },
+  {
+    "nombre_curso": "Estructuras discretas II",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.20, 0.20]
   },
   {
     "nombre_curso": "Ciencia de la Computacion II",
@@ -18,5 +22,13 @@
   {
     "nombre_curso": "Arquitectura de computadores",
     "valores": [0.09, 0.2, 0.09, 0.2, 0.15, 0.27]
+  },
+  {
+    "nombre_curso": "Ecologia y conservacion ambiental",
+    "valores": [0.20, 0.10, 0.20, 0.10, 0.20, 0.20]
+  },
+  {
+    "nombre_curso": "Base de datos",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.20, 0.20]
   }
 ]
