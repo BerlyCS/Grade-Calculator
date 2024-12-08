@@ -77,7 +77,7 @@ int main(int argc, char* argv[]) {
     procesar(count, nota_pond, peso_falta, zero_count, notas, pesos);
 
     /* cout<<peso_falta<<endl; */
-    cout<<"Nota acumulada (actual): "<<nota_pond<<endl;
+    cout<<"Promedio ponderado actual: "<<nota_pond<<endl;
 
     //Usando  
     cout<<"Tendrias que sacar: "<<((10.5f-nota_pond)/peso_falta)<<" para aprobar"<<endl;

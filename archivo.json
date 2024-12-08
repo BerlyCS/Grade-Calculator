@@ -30,5 +30,17 @@
   {
     "nombre_curso": "Base de datos",
     "valores": [0.15, 0.15, 0.15, 0.15, 0.20, 0.20]
+  },
+  {
+    "nombre_curso": "Desarrollo Basado en plataformas",
+    "valores": [0.09, 0.2, 0.09, 0.2, 0.15, 0.27]
+  },
+  {
+    "nombre_curso": "Algoritmos y Estructuras de datos",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.16, 0.24]
+  },
+  {
+    "nombre_curso": "Teoria de la Computacion",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.2, 0.2]
   }
 ]
