@@ -40,6 +40,10 @@
     "valores": [0.15, 0.15, 0.15, 0.15, 0.16, 0.24]
   },
   {
+    "nombre_curso": "Estadistica y probabilidades",
+    "valores": [0.07, 0.22, 0.07, 0.22, 0.14, 0.28]
+  },
+  {
     "nombre_curso": "Teoria de la Computacion",
     "valores": [0.15, 0.15, 0.15, 0.15, 0.2, 0.2]
   }
