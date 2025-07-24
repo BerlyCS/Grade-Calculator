@@ -54,5 +54,33 @@
   {
     "nombre_curso": "Teoria de la Computacion",
     "valores": [0.15, 0.15, 0.15, 0.15, 0.2, 0.2]
+  },
+  {
+    "nombre_curso": "Compiladores",
+    "valores": [0.09,0.20, 0.09, 0.20, 0.15, 0.27]
+  },
+  {
+    "nombre_curso": "Base de datos II",
+    "valores": [0.09,0.20, 0.09, 0.20, 0.15, 0.27]
+  },
+  {
+    "nombre_curso": "Teoria de la Computacion",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.2, 0.2]
+  },
+  {
+    "nombre_curso": "Analisis exploratorio de datos espaciales",
+    "valores": [0.15,0.15,0.15,0.15,0.2,0.2]
+  },
+  {
+    "nombre_curso": "Teoria de la Computacion",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.2, 0.2]
+  },
+  {
+    "nombre_curso": "Ingenieria de software I",
+    "valores": [0.09,0.2,0.09,0.2,0.15,0.27]
+  },
+  {
+    "nombre_curso": "Analisis y diseño de Algoritmos",
+    "valores": [0.15, 0.15, 0.15, 0.15, 0.16,0.24]
   }
 ]
