@@ -551,7 +551,7 @@
     border: 1px solid var(--border);
     border-radius: 12px;
     margin-top: 8px;
-    background: rgba(255, 255, 255, 0.02);
+    background: var(--panel-soft);
   }
   .custom-meta { display: flex; flex-direction: column; gap: 4px; }
   .custom-meta .name { font-weight: 700; }
